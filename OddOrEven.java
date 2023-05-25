@@ -1,3 +1,4 @@
+
 public class OddOrEven{
     public static void main(String[] args) {
 
@@ -12,3 +13,7 @@ public class OddOrEven{
         }
     }
 }
+
+/*
+Write a method which can identifies given number is even or odd
+ */

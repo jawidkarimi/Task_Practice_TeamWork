@@ -1,4 +1,5 @@
 public class FINRA {
+
     public static void main(String[] args) {
         finra(30);
 
@@ -15,10 +16,6 @@ public class FINRA {
                 result+="FIN ";
             } else{
                 result += i+" ";
-            }
-        }
-        System.out.println(result);
-    }
 }
 /*
 Write a method which prints out the numbers from 1 to 30 but for numbers which
