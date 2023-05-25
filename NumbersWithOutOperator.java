@@ -11,6 +11,7 @@ public class NumbersWithOutOperator {
     }
 
     public static void main(String[] args) {
+
         numBers(10,2);
     }
 }
