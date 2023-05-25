@@ -4,6 +4,7 @@ public class IDENTIFY_Senai {
     public static void main(String[] args) {
         identify(8);
         identify(7);
+        identify(11);
 
 
     }
@@ -17,5 +18,6 @@ public class IDENTIFY_Senai {
         }
 
     }
+    // if statements added
 
 }
