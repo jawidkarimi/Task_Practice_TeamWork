@@ -14,7 +14,7 @@ public class OddOrEven {
             System.out.println("Number is Zero");
         }
 
-
+     // we are strong together ^ ^
     }
     /*
     write a method which can identifies given number is even or odd
