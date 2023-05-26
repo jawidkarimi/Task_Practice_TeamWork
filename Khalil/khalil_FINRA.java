@@ -1,6 +1,6 @@
 package Khalil;
 
-public class khalilJavaTask {
+public class khalil_FINRA {
 
     public static void main(String[] args) {
 
