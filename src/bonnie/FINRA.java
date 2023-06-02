@@ -4,15 +4,15 @@ public class FINRA {
 
     public static void main(String[] args) {
 
-        finra();
+        finra(30);
 
     }
 
-    public static void finra() {
+    public static void finra(int num) {
 
         String result = "";
 
-        for (int i = 1; i <= 30; i++) {
+        for (int i = 1; i <= num; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
                 result += "FINRA ";
