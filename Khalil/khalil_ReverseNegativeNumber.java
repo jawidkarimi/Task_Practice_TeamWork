@@ -4,7 +4,7 @@ public class khalil_ReverseNegativeNumber {
 
     public static void main(String[] args) {
 
-        int num = -3456, reversed = 0;
+        int num = -56789, reversed = 0;
 
         System.out.println("Original Number: " + num);
 
