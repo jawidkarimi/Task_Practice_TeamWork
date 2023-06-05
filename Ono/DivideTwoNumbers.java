@@ -1,3 +1,5 @@
+package Ono;
+
 public class DivideTwoNumbers {
 
     public static void main(String[] args) {
