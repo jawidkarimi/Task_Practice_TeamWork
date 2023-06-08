@@ -1,4 +1,4 @@
-package src.naseem;
+package src.Naseem;
 
 public class primeNumber1 {
 
