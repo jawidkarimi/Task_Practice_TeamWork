@@ -1,4 +1,4 @@
-package Khalil;
+package src.Khalil;
 
 public class khalil_OddOrEven {
 
