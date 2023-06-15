@@ -4,11 +4,11 @@ public class ConsecutiveNumbers {
 
     public static void main(String[] args) {
 
-        CodilityTestCoders(17);
+        codilityTestCoders(17);
 
     }
 
-    public static void CodilityTestCoders(int num) {
+    public static void codilityTestCoders(int num) {
 
         for (int i = 1; i <= num; i++) {
 
