@@ -4,10 +4,10 @@ public class DivisibleBy3_5_15 {
 
     public static void main(String[] args) {
 
-        Divisible(100);
+        divisible(100);
     }
 
-    public static void Divisible(int num){
+    public static void divisible(int num){
 
         String divisible3 = "";
         String divisible5 = "";

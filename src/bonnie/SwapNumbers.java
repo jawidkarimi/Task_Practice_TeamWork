@@ -4,12 +4,12 @@ public class SwapNumbers {
 
     public static void main(String[] args) {
 
-        SwapNumbers(20, 10);
+        swapNumbers(20, 10);
 
 
     }
 
-    public static void SwapNumbers(int x, int y) {
+    public static void swapNumbers(int x, int y) {
 
         x = x + y;
         y = x - y;
