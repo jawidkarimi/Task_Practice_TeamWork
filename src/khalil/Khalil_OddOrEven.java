@@ -1,6 +1,6 @@
-package src.Khalil;
+package src.khalil;
 
-public class khalil_OddOrEven {
+public class Khalil_OddOrEven {
 
     public static void main(String[] args) {
 

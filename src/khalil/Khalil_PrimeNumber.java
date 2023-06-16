@@ -1,10 +1,10 @@
-package src.Khalil;
+package src.khalil;
 
-public class khalil_PrimeNumber {
+public class Khalil_PrimeNumber {
 
     public static void main(String[] args) {
 
-        int num = 8;
+        int num = 7;
         boolean flag = false;
         for (int i = 2; i <= num / 2; ++i) {
             // condition for nonprime number
