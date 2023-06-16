@@ -5,8 +5,8 @@ import java.util.Collections;
 
 public class FrequencyOfCharacter {
 
-    public static void frequencyOfCharacter(){
-        String str = "AAABBCDD";
+    public static void frequencyOfCharacter(String str){
+
 
         String result = "";
 
@@ -23,7 +23,7 @@ public class FrequencyOfCharacter {
     }
 
     public static void main(String[] args) {
-        frequencyOfCharacter();
+        frequencyOfCharacter("AABBCC");
     }
 
 
