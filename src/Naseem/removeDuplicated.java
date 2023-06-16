@@ -1,10 +1,10 @@
 package src.Naseem;
 
-public class RemoveDuplicate {
+public class removeDuplicated {
 
-    public static void removeDuplicated() {
+    public static void removeDuplicated(String str) {
 
-        String str = "AAABBBCCC";
+
 
         String result = "";
 
@@ -21,7 +21,7 @@ public class RemoveDuplicate {
     }
 
     public static void main(String[] args) {
-        removeDuplicated();
+        removeDuplicated("AAABBBCCC");
     }
 }
 
