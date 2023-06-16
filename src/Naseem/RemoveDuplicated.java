@@ -3,9 +3,7 @@ package src.Naseem;
 public class RemoveDuplicated {
 
 
-        public static void removeDuplicated() {
-
-            String str = "AAABBBCCC";
+        public static void removeDuplicated(String str ) {
 
             String result = "";
 
@@ -22,7 +20,7 @@ public class RemoveDuplicated {
         }
 
         public static void main(String[] args) {
-            removeDuplicated();
+            removeDuplicated("AAABBBCCC");
         }
     }
 
