@@ -1,6 +1,6 @@
-package src.Khalil;
+package src.khalil;
 
-public class khalil_DivideWithoutOperator {
+public class Khalil_DivideWithoutOperator {
 
     public static void numbers(int num1,int num2) {
 

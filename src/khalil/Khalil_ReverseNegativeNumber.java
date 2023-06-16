@@ -1,6 +1,6 @@
-package src.Khalil;
+package src.khalil;
 
-public class khalil_ReverseNegativeNumber {
+public class Khalil_ReverseNegativeNumber {
 
     public static void main(String[] args) {
 

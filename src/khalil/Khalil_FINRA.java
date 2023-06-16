@@ -1,6 +1,6 @@
-package src.Khalil;
+package src.khalil;
 
-public class khalil_FINRA {
+public class Khalil_FINRA {
 
     public static void main(String[] args) {
 
