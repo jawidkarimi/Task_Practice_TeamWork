@@ -23,8 +23,11 @@ public class removeDuplivation {
     public static void main(String[] args) {
         removeDuplicated( "AAABBBCCC");
     }
-}
 
+  //..
+
+
+}
 
 
 
