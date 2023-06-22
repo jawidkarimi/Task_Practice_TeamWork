@@ -3,10 +3,11 @@ package src.Naseem;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class FrequencyOfCharacter {
+public class frequencyOfCharecters {
 
 
-    public static void frequencyOfCharacter(String str){
+    public static void frequencyOfCharacters(){
+        String str = "AAABBCDD";
 
         String result = "";
 
@@ -21,13 +22,18 @@ public class FrequencyOfCharacter {
         System.out.println(result);
 
     }
-//..
+
     public static void main(String[] args) {
-        frequencyOfCharacter("AAABBCDD");
+        frequencyOfCharacters();
     }
 
 
 }
+
+
+
+
+
 
 
 
