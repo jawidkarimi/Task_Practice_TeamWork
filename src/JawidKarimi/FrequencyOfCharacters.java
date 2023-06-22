@@ -7,6 +7,12 @@ public class FrequencyOfCharacters {
         System.out.println(frequencyOfChar("aabcdeffd"));
 
     }
+
+    /**
+     * remove duplicate method
+     * @param str
+     * @return
+     */
     public static String frequencyOfChar(String str){
 
         String result = "";
@@ -35,14 +41,3 @@ public class FrequencyOfCharacters {
     }
 
 }
-
-/*
-Write a program that can find the frequency of the characters from a string
-
-                         Ex:
-                        str = "aabcccd";
-
-                        output:
-                                a2b1c3d1
-
- */
