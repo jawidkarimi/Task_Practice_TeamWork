@@ -21,7 +21,7 @@ public class FrequencyOfCharacter {
         System.out.println(result);
 
     }
-
+//..
     public static void main(String[] args) {
         frequencyOfCharacter("AAABBCDD");
     }
