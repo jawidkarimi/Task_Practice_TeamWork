@@ -17,7 +17,7 @@ public class ReversLitters {
         System.out.println(revers("ABCD"));
     }
 
-
+// write function that can revers a string EX Reverse("ABCD"); to DCBA
 
 
 
