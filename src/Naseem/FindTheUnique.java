@@ -24,7 +24,9 @@ public class FindTheUnique {
 
 }
 
-
+/*
+Find the unique character AAABBBCCCDEF
+ */
 
 
 
