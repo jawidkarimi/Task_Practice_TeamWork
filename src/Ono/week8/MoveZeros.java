@@ -33,3 +33,8 @@ public class MoveZeros {
 
 
 }
+/*
+The method starts by initializing a variable index to keep track of the current position where non-zero elements should be placed. We iterate over the array, and for each non-zero element, we assign it to the current index position and increment index. This step effectively moves all non-zero elements to the beginning of the array.
+
+After moving all non-zero elements, we fill the remaining elements of the array from the index position onwards with zeros, ensuring that all zeros are moved to the last indexes of the array.
+ */
