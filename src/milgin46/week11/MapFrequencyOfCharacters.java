@@ -4,8 +4,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class MapFrequencyOfMaps {
-
+public class MapFrequencyOfCharacters {
     public static void main(String[] args) {
         String input = "Hello World";
         printCharacterFrequency(input);
@@ -16,12 +15,16 @@ public class MapFrequencyOfMaps {
 
         for (char c : str.toCharArray()) {
             if (Character.isLetter(c)) {
-                frequencyMap.put(c, frequencyMap.getOrDefault(c, 0) + 1);
+                if (frequencyMap.containsKey(c)) {
+                    frequencyMap.put(c, frequencyMap.get(c) + 1);
+                } else {
+                    frequencyMap.put(c, 1);
+                }
             }
         }
 
-        for (char key : frequencyMap.keySet()) {
-            System.out.println(key + " -> " + frequencyMap.get(key));
+        for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
+            System.out.println(entry.getKey() + " -> " + entry.getValue());
         }
     }
 }
